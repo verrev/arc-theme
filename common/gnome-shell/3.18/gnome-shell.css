@@ -661,10 +661,10 @@ StScrollBar {
   #panel #panelLeft, #panel #panelCenter {
     spacing: 8px; }
   #panel .panel-corner {
-    -panel-corner-radius: 0px;
+    -panel-corner-radius: 6px;
     -panel-corner-background-color: transparent;
-    -panel-corner-border-width: 0px;
-    -panel-corner-border-color: black; }
+    -panel-corner-border-width: 2px;
+    -panel-corner-border-color: #292F38; }
     #panel .panel-corner:active, #panel .panel-corner:overview, #panel .panel-corner:focus {
       -panel-corner-border-color: black; }
     #panel .panel-corner.lock-screen, #panel .panel-corner.login-screen, #panel .panel-cornerunlock-screen {
